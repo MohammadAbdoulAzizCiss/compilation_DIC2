@@ -1,0 +1,11 @@
+INT MAIN(){
+    INT[21] ages;
+    INT heures = 34;
+    INT tarif = 2000;
+    INT total = heures * tarif;
+    INT i = 0;
+    WHILE( i < 21 ){
+        ages[i] = lire();
+    }
+    RETURN 0;
+}
